@@ -92,7 +92,7 @@ export default function Header ({ navBarTitle, fullWidth }) {
         ref={navRef}
         onClick={handleClickHeader}
       >
-        {/* <svg
+        <svg
           viewBox="0 0 24 24"
           className="caret w-6 h-6 absolute inset-x-0 bottom-0 mx-auto pointer-events-none opacity-30 group-hover:opacity-100 transition duration-100"
         >
@@ -100,19 +100,8 @@ export default function Header ({ navBarTitle, fullWidth }) {
             d="M12 10.828l-4.95 4.95-1.414-1.414L12 8l6.364 6.364-1.414 1.414z"
             className="fill-black dark:fill-white"
           />
-        </svg> */}
-        <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="24px" height="24px" viewBox="0 0 24 24" enable-background="new 0 0 24 24" xml:space="preserve">  <image id="image0" width="24" height="24" x="0" y="0"
-            href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAAAAADFHGIkAAAABGdBTUEAALGPC/xhBQAAACBjSFJN
-        AAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAAmJLR0QA/4ePzL8AAAAHdElN
-        RQfnCA4EMw90520VAAABDklEQVQoz2P8z4AdMDHQXoIFSv//dPbHXx1ZFoTMfwh4ESnExq4QtukP
-        lP8fKvEuGmImT9svVIl1zAwMjAwMDAxc26ESEEO/b/rLm63z4qY406SdHsiWP97OoFvHftuaj/nD
-        k7fCSBLcHAy/731kuMDCpvT3nB07QuKy6U9JaS6mlzK855kesSF0PDlfLCEqwPnIQuyx+aW3jAif
-        f+FkMvdkePVAiJn9CeMTJMsV2U6JKzBIS7IwMOld00AKK/ZEpUd8DEz/br5m/PVREDkQOb2k1/1n
-        YP5x+sz3B/KoYfVzwcxn/////39y4m+IACMsav8dPckjzvzia4QkhM+IiPMfj17+FVVhZ8CQoDRq
-        ASrRjDMhZkMAAAAAJXRFWHRkYXRlOmNyZWF0ZQAyMDIzLTA4LTE0VDA0OjUxOjE1KzAwOjAwr2zT
-        IAAAACV0RVh0ZGF0ZTptb2RpZnkAMjAyMy0wOC0xNFQwNDo1MToxNSswMDowMN4xa5wAAAAodEVY
-        dGRhdGU6dGltZXN0YW1wADIwMjMtMDgtMTRUMDQ6NTE6MTUrMDA6MDCJJEpDAAAAAElFTkSuQmCC" />
         </svg>
+
         <div className="flex items-center">
           <Link href="/" aria-label={BLOG.title}>
             <Image
