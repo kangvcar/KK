@@ -3,7 +3,7 @@ const BLOG = {
   author: 'KangVcar',
   email: 'kangvcar@gmail.com',
   link: 'https://nobelium.vercel.app',
-  description: 'Dive into areas like Crypto, DevOps, Hacking, and AIGC.',
+  description: '| Crypto, DevOps, Hacking, and AIGC.',
   lang: 'zh-CN', // ['en-US', 'zh-CN', 'zh-HK', 'zh-TW', 'ja-JP', 'es-ES']
   timezone: 'Asia/Shanghai', // Your Notion posts' date will be interpreted as this timezone. See https://en.wikipedia.org/wiki/List_of_tz_database_time_zones for all options.
   appearance: 'auto', // ['light', 'dark', 'auto'],
@@ -51,7 +51,7 @@ const BLOG = {
       repo: ''
     },
     cusdisConfig: {
-      appId: '', // data-app-id
+      appId: '3f25c4be-39cb-43e4-9dd9-a77fa4f44b9d', // data-app-id
       host: 'https://cusdis.com', // data-host, change this if you're using self-hosted version
       scriptSrc: 'https://cusdis.com/js/cusdis.es.js' // change this if you're using self-hosted version
     }
