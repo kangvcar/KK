@@ -1,9 +1,9 @@
 const BLOG = {
-  title: 'K.K.',
+  title: 'K.K',
   author: 'KangVcar',
   email: 'kangvcar@gmail.com',
   link: 'https://nobelium.vercel.app',
-  description: '| Crypto, DevOps, Hacking, and AIGC.',
+  description: 'Crypto, DevOps, Hacking, and AIGC.',
   lang: 'zh-CN', // ['en-US', 'zh-CN', 'zh-HK', 'zh-TW', 'ja-JP', 'es-ES']
   timezone: 'Asia/Shanghai', // Your Notion posts' date will be interpreted as this timezone. See https://en.wikipedia.org/wiki/List_of_tz_database_time_zones for all options.
   appearance: 'auto', // ['light', 'dark', 'auto'],
@@ -38,7 +38,7 @@ const BLOG = {
   },
   comment: {
     // support provider: gitalk, utterances, cusdis
-    provider: '', // leave it empty if you don't need any comment plugin
+    provider: 'cusdis', // leave it empty if you don't need any comment plugin
     gitalkConfig: {
       repo: '', // The repository of store comments
       owner: '',
