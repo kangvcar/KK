@@ -2,7 +2,7 @@ const BLOG = {
   title: 'K.K',
   author: 'KangVcar',
   email: 'kangvcar@gmail.com',
-  link: 'https://nobelium.vercel.app',
+  link: 'https://kangvcar.com',
   description: 'Crypto, DevOps, Hacking, and AIGC.',
   lang: 'zh-CN', // ['en-US', 'zh-CN', 'zh-HK', 'zh-TW', 'ja-JP', 'es-ES']
   timezone: 'Asia/Shanghai', // Your Notion posts' date will be interpreted as this timezone. See https://en.wikipedia.org/wiki/List_of_tz_database_time_zones for all options.
@@ -10,7 +10,7 @@ const BLOG = {
   font: 'sans-serif', // ['sans-serif', 'serif']
   lightBackground: '#ffffff', // use hex value, don't forget '#' e.g #fffefc
   darkBackground: '#18181B', // use hex value, don't forget '#'
-  path: '/about', // leave this empty unless you want to deploy Nobelium in a folder
+  path: '', // leave this empty unless you want to deploy Nobelium in a folder
   since: 2016, // If leave this empty, current year will be used.
   postsPerPage: 6,
   sortByDate: true,
