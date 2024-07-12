@@ -11,6 +11,7 @@ import { LocaleProvider } from '@/lib/locale'
 import { prepareDayjs } from '@/lib/dayjs'
 import { ThemeProvider } from '@/lib/theme'
 import Scripts from '@/components/Scripts'
+import { Analytics } from '@vercel/analytics/react';
 
 const Ackee = dynamic(() => import('@/components/Ackee'), { ssr: false })
 const Gtag = dynamic(() => import('@/components/Gtag'), { ssr: false })
@@ -33,6 +34,7 @@ export default function MyApp ({ Component, pageProps, config, locale }) {
           </>
         </ThemeProvider>
       </LocaleProvider>
+      <Analytics />
     </ConfigProvider>
   )
 }
